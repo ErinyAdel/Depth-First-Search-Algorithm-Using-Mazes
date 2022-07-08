@@ -1,8 +1,6 @@
 """
-Python Data Structures - A Game-Based Approach
-DFS maze solver.
-Robin Andrews - https://compucademy.net/
-The stack contains positions as (row, column) tuples. Predecessors are kept in a dictionary.
+Created on Fri Jul 8 20:46:11 2022
+@author: Eriny
 """
 
 from helpers import get_path, offsets, is_legal_pos, read_maze

@@ -1,7 +1,6 @@
 """
-Python Data Structures and Algorithms - A Game-Based Approach
-Helper functions and values for use with other files in this project.
-Robin Andrews - https://compucademy.net/
+Created on Fri Jul  8 20:46:11 2022
+@author: Eriny
 """
 
 offsets = {
