@@ -4,7 +4,7 @@ Created on Fri Jul 8 20:46:11 2022
 """
 
 from helpers import get_path, offsets, is_legal_pos, read_maze
-from stack import Stack
+from Stack import Stack
 
 
 def dfs(maze, start, goal):
@@ -12,7 +12,7 @@ def dfs(maze, start, goal):
     stack.push(start)
     predecessors = {start: None}
 
-    while not stack.is_empty():
+    while not stack.isEmpty():
         current_cell = stack.pop()
         if current_cell == goal:
             return get_path(predecessors, start, goal)
